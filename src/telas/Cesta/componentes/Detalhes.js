@@ -50,7 +50,7 @@ const estilos = StyleSheet.create({
         marginTop: 8
     },
     botao: {
-        marginTop: 16,
+
         backgroundColor: "#2A9F85",
         paddingVertical: 16,
         borderRadius: 6,
