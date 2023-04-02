@@ -1,5 +1,5 @@
 import React from 'react';
-import { StatusBar, View } from 'react-native';
+import { StatusBar, SafeAreaView } from 'react-native';
 import { useFonts, Montserrat_400Regular, Montserrat_700Bold } from '@expo-google-fonts/montserrat';
 import AppLoading from 'expo-app-loading';
 
@@ -18,9 +18,9 @@ export default function App() {
   }
 
   return (
-    <View>
+    <SafeAreaView style={{ flex: 1 }}>
       <StatusBar />
       <Cesta {...mock} />
-    </View>
+    </SafeAreaView>
   );
 }
